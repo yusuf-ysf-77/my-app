@@ -26,23 +26,19 @@ export default function Learnpage() {
                 <div className="flex flex-col gap-3">
                     
                     {/* Title */}
-                    <div>
-                        <p className="text-[27px] font-bold align-self-end">Adobe Photoshop</p>
-                    </div>
+                    <p className="text-[27px] font-bold align-self-end">Adobe Photoshop</p>
 
                     {/* Time & Poeple's Profiles */}
                     <div className="flex justify-between">
 
                         {/* Time */}
-                        <div>
-                            <p className="text-[13.5px] font-bold">in 3 days</p>
-                        </div>
+                        <p className="text-[13.5px] font-bold">in 3 days</p>
 
                         {/* Poeple's Profiles */}
                         <div className="flex">
-                            <img src="/pp1.jpg" className="w-9 h-9 rounded-full border-[#ecefff] border-3"/>
-                            <img src="/pp2.jpg" className="w-9 h-9 rounded-full border-[#ecefff] border-3 -ml-4"/>
-                            <img src="/pp3.jpg" className="w-9 h-9 rounded-full border-[#ecefff] border-3 -ml-4"/>
+                            <img src="pp1.jpg" className="w-9 h-9 rounded-full border-[#ecefff] border-3"/>
+                            <img src="pp2.jpg" className="w-9 h-9 rounded-full border-[#ecefff] border-3 -ml-4"/>
+                            <img src="pp3.jpg" className="w-9 h-9 rounded-full border-[#ecefff] border-3 -ml-4"/>
                             <p className="bg-[#d9dbeb] w-9 h-9 rounded-full border-[#ecefff] border-3 -ml-4 font-bold text-[10px] flex items-center justify-center">9+</p>
                         </div>
 
@@ -73,23 +69,19 @@ export default function Learnpage() {
                 <div className="flex flex-col gap-3">
                     
                     {/* Title */}
-                    <div>
-                        <p className="text-[27px] font-bold align-self-end">DALL·E 2, Midjourney, Stable Diffusion</p>
-                    </div>
-
+                    <p className="text-[27px] font-bold align-self-end">DALL·E 2, Midjourney, Stable Diffusion</p>
+                    
                     {/* Time & Poeple's Profiles */}
                     <div className="flex justify-between">
 
                         {/* Time */}
-                        <div>
-                            <p className="text-[13.5px] font-bold">in 5 days</p>
-                        </div>
+                        <p className="text-[13.5px] font-bold">in 5 days</p>
 
                         {/* Poeple's Profiles */}
                         <div className="flex">
-                            <img src="/pp4.jpg" className="w-9 h-9 rounded-full border-[#d7fde3] border-3"/>
-                            <img src="/pp5.jpg" className="w-9 h-9 rounded-full border-[#d7fde3] border-3 -ml-4"/>
-                            <img src="/pp6.jpg" className="w-9 h-9 rounded-full border-[#d7fde3] border-3 -ml-4"/>
+                            <img src="pp4.jpg" className="w-9 h-9 rounded-full border-[#d7fde3] border-3"/>
+                            <img src="pp5.jpg" className="w-9 h-9 rounded-full border-[#d7fde3] border-3 -ml-4"/>
+                            <img src="pp6.jpg" className="w-9 h-9 rounded-full border-[#d7fde3] border-3 -ml-4"/>
                             <p className="bg-[#cee4c8] w-9 h-9 rounded-full border-[#d7fde3] border-3 -ml-4 font-bold text-[10px] flex items-center justify-center">3+</p>
                         </div>
 
@@ -175,9 +167,7 @@ export default function Learnpage() {
 
         
         {/* Page */}
-        <section className="flex self-end fixed bottom-16 right-18">
-            <p className="text-[20px] font-bold text-[#adadad]">Day 020 / 365</p>
-        </section>
+        <p className="flex self-end fixed bottom-16 right-18 text-[20px] font-bold text-[#adadad]">Day 020 / 365</p>
     
     </section>
         );
