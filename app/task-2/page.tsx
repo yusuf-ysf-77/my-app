@@ -5,11 +5,6 @@ export default function Learnpage() {
     // layar Utama
     <section className="h-screen bg-gray-100 flex flex-col gap-7 p-40 justify-center items-center font-[ms reference sans serif]">
 
-
-        {/* logo */}
-        <section className="flex self-start fixed top-16 left-18 w-16 h-16 bg-[#c5c5c5] mask mask-[url('/help-triangle.svg')] mask-no-repeat mask-center mask-contain"></section>
-
-
         {/* Container 1 */}
         <section className="flex gap-7">
 
@@ -168,6 +163,10 @@ export default function Learnpage() {
         
         {/* Page */}
         <p className="flex self-end fixed bottom-16 right-18 text-[20px] font-bold text-[#adadad]">Day 020 / 365</p>
+        
+
+        {/* logo */}
+        <section className="flex self-start fixed top-16 left-18 w-16 h-16 bg-[#c5c5c5] mask mask-[url('/help-triangle.svg')] mask-no-repeat mask-center mask-contain"></section>
     
     </section>
         );
