@@ -10,7 +10,7 @@ export default function Learnpage() {
 
                     <div className="bg-[#dcf7fa] p-7.75 h-63 w-93 justify-between rounded-3xl flex flex-col text-[#494f69]">
 
-                        <div className="flex gap-2">
+                        <div className="flex gap-2 items-center">
                             
                             <div className="w-4 h-4 bg-[#494f69] mask mask-[url('/palette.svg')] mask-no-repeat mask-center mask-contain"></div>
                             <p className="text-[9.5px]">Design</p>
@@ -56,7 +56,7 @@ export default function Learnpage() {
                         </div>
 
                         <div className="flex flex-col gap-1">
-                            
+
                             <p className="text-[18.75px] align-self-end">DALL·E 2, Midjourney, Stable Diffusion</p>
 
                             <div className="flex justify-between items-center">
@@ -79,12 +79,12 @@ export default function Learnpage() {
                     </div>
 
                 </div>
-                
+
                 <div className="flex gap-4.5">
 
                     <div className="bg-[#f7dcfa] p-8 h-55 w-60.5 rounded-3xl flex flex-col justify-between text-[#4c005f]">
                         
-                        <div className="flex gap-2">
+                        <div className="flex gap-2 items-center">
 
                             <div className="w-4 h-4 bg-[#4c005f] mask mask-[url('/palette.svg')] mask-no-repeat mask-center mask-contain"></div>
                             <p className="text-[9.5px]">Design</p>
@@ -102,7 +102,7 @@ export default function Learnpage() {
 
                     <div className="bg-[#ffe5e3] p-8 h-55 w-60.5 rounded-3xl flex flex-col justify-between text-[#703600]">
                         
-                        <div className="flex gap-2">
+                        <div className="flex gap-2 items-center">
 
                             <div className="w-4 h-4 bg-[#703600] mask mask-[url('/code.svg')] mask-no-repeat mask-center mask-contain"></div>
                             <p className="text-[9.5px]">Codding</p>
@@ -120,7 +120,7 @@ export default function Learnpage() {
 
                     <div className="bg-[#ffdde7] p-8 h-55 w-60.5 rounded-3xl flex flex-col justify-between text-[#6e0000]">
                         
-                        <div className="flex gap-2">
+                        <div className="flex gap-2 items-center">
 
                             <div className="w-4 h-4 bg-[#6e0000] mask mask-[url('/palette.svg')] mask-no-repeat mask-center mask-contain"></div>
                             <p className="text-[9.5px]">Design</p>
@@ -138,8 +138,8 @@ export default function Learnpage() {
                 
                 </div>
 
-                <p className="flex self-end absolute bottom-12 right-10 text-[14px] text-[#adadad]">Day 020 / 365</p>
-                <div className="flex self-start absolute top-12 left-10 w-11 h-11 bg-[#c5c5c5] mask mask-[url('/help-triangle.svg')] mask-no-repeat mask-center mask-contain"></div>
+                <p className="flex absolute bottom-12 right-10 text-[14px] text-[#adadad]">Day 020 / 365</p>
+                <div className="flex absolute top-12 left-10 w-11 h-11 bg-[#c5c5c5] mask mask-[url('/help-triangle.svg')] mask-no-repeat mask-center mask-contain"></div>
             
             </section>
 
