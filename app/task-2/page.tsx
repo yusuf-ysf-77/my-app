@@ -12,7 +12,7 @@ export default function Learnpage() {
                 <section className="flex gap-5">
 
                     {/* Box 1 */}
-                    <section className="bg-[#ecf1ff] p-7.75 h-63 w-93 justify-between rounded-3xl flex flex-col text-[#494f69]">
+                    <section className="bg-[#dcf7fa] p-7.75 h-63 w-93 justify-between rounded-3xl flex flex-col text-[#494f69]">
 
                         {/* Header */}
                         <div className="flex gap-2">
@@ -59,7 +59,7 @@ export default function Learnpage() {
                             </div>
 
                             {/* Favorite */}
-                            <div className="w-2.75 h-2.75 bg-[#186a6d] mask mask-[url('/carambola.svg')] mask-no-repeat mask-center mask-contain"></div>
+                            <div className="w-3 h-3 bg-[#186a6d] mask mask-[url('/carambola.svg')] mask-no-repeat mask-center mask-contain"></div>
 
                         </div>
 
