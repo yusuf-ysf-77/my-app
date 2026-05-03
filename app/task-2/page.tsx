@@ -2,7 +2,7 @@
 export default function Learnpage() {
     return (
     
-        <section className="flex justify-center items-center w-screen h-screen">
+        <section className="bg-black flex justify-center items-center w-screen h-screen">
 
             <section className="relative w-250.5 h-188 bg-gray-100 flex flex-col gap-4.5 justify-center items-center font-sans font-semibold">
 
