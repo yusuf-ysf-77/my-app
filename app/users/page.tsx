@@ -19,9 +19,9 @@ export default function Learnpage() {
                     </div>
                 </div>
 
-                <div className="bg-gray-100 p-4 rounded-2xl justify-center flex flex-col gap-3 items-center w-95 h-30">
+                <div className="bg-gray-100 p-4 rounded-2xl justify-center flex flex-col gap-3 items-center w-98 h-30">
                     <p className="text-black font-semibold self-start">Projects</p>
-                    <div className="flex gap-23 self-start">
+                    <div className="flex gap-25 self-start">
                         <div>
                             <div className="flex items-center gap-1.5">
                                 <div className="w-4 h-4 bg-blue-600 mask mask-[url('/hourglass-empty.svg')] mask-no-repeat mask-center mask-contain"></div>
