@@ -2,7 +2,7 @@
 export default function Learnpage() {
     return (
     
-        <section className="bg-black flex justify-center items-center w-screen h-screen">
+        <section className="bg-gray-950 flex justify-center items-center w-screen h-screen">
 
             <section className="relative w-250.5 h-188 bg-gray-100 flex flex-col gap-4.5 justify-center items-center font-sans font-semibold">
 
@@ -27,9 +27,9 @@ export default function Learnpage() {
 
                                 <div className="flex">
                                     
-                                    <img src="pp1.jpg" className="w-6.5 h-6.5 rounded-full border-[#ecefff] border-2"/>
-                                    <img src="pp2.jpg" className="w-6.5 h-6.5 rounded-full border-[#ecefff] border-2 -ml-3.25"/>
-                                    <img src="pp3.jpg" className="w-6.5 h-6.5 rounded-full border-[#ecefff] border-2 -ml-3.25"/>
+                                    <img src="/pp1.jpg" className="w-6.5 h-6.5 rounded-full border-[#ecefff] border-2"/>
+                                    <img src="/pp2.jpg" className="w-6.5 h-6.5 rounded-full border-[#ecefff] border-2 -ml-3.25"/>
+                                    <img src="/pp3.jpg" className="w-6.5 h-6.5 rounded-full border-[#ecefff] border-2 -ml-3.25"/>
                                     <p className="bg-[#d9dbeb] w-6.5 h-6.5 rounded-full border-[#ecefff] border-2 -ml-3.25 text-[6px] flex items-center justify-center">9+</p>
 
                                 </div>
@@ -65,9 +65,9 @@ export default function Learnpage() {
 
                                 <div className="flex">
 
-                                    <img src="pp4.jpg" className="w-6.5 h-6.5 rounded-full border-[#dbfde5] border-2"/>
-                                    <img src="pp5.jpg" className="w-6.5 h-6.5 rounded-full border-[#dbfde5] border-2 -ml-3.25"/>
-                                    <img src="pp6.jpg" className="w-6.5 h-6.5 rounded-full border-[#dbfde5] border-2 -ml-3.25"/>
+                                    <img src="/pp4.jpg" className="w-6.5 h-6.5 rounded-full border-[#dbfde5] border-2"/>
+                                    <img src="/pp5.jpg" className="w-6.5 h-6.5 rounded-full border-[#dbfde5] border-2 -ml-3.25"/>
+                                    <img src="/pp6.jpg" className="w-6.5 h-6.5 rounded-full border-[#dbfde5] border-2 -ml-3.25"/>
                                     <p className="bg-[#cee4c8] w-6.5 h-6.5 rounded-full border-[#dbfde5] border-2 -ml-3.25 text-[6px] flex items-center justify-center">3+</p>
 
                                 </div>
