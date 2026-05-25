@@ -2,8 +2,8 @@ export default function Learnpage() {
     return (
 
         <section className="flex h-screen w-screen bg-gray-200 justify-center items-center">
-            <section className="flex flex-col relative w-110 h-125 bg-white rounded-3xl p-6 justify-between">
-                <div className="flex justify-between items-center border-b-2 h-13">
+            <section className="flex flex-col relative w-110 h-125 bg-white rounded-3xl p-6 justify-between overflow-hidden shadow-[30px_30px_50px_10px_rgba(0,0,0,0.1)]">
+                <div className="flex justify-between items-center border-b h-13">
                     <p className="text-[16px] text-black font-semibold">Client details</p>
                     <img src="/x.svg" className="w-5 h-5"/>
                 </div>
@@ -19,8 +19,8 @@ export default function Learnpage() {
                     </div>
                 </div>
 
-                <div className="bg-gray-100 p-4 rounded-2xl justify-center flex flex-col gap-3 items-center w-98 h-30">
-                    <p className="text-black font-semibold self-start">Projects</p>
+                <div className="bg-blue-50 p-4.5 rounded-2xl justify-between flex flex-col w-full h-32">
+                    <p className="text-black font-semibold">Projects</p>
                     <div className="flex gap-25 self-start">
                         <div>
                             <div className="flex items-center gap-1.5">
@@ -55,9 +55,9 @@ export default function Learnpage() {
                     <p className="text-gray-600 text-[13px]">6 Jan 2024</p>
                 </div>
 
-                <div className="flex justify-between">
-                    <img src="/dots-vertical.svg" className="bg-gray-200 w-13 h-13 rounded-full p-3"/>
-                    <div className="flex bg-blue-600 w-82 h-13 rounded-full p-2 gap-2 justify-center items-center">
+                <div className="flex justify-between gap-3">
+                    <img src="/dots-vertical.svg" className="bg-white w-13 h-13 rounded-full p-3 shadow-[20px_80px_250px_35px_rgba(0,0,250,50)]"/>
+                    <div className="flex bg-linear-to-l from-purple-700 from-40% to-blue-700 w-full h-13 rounded-full p-2 gap-2 justify-center items-center">
                         <div className="w-6 h-6 bg-white mask mask-[url('/mail.svg')] mask-no-repeat mask-center mask-contain"></div>
                         <p className="text-center text-white text-[13px]">Message</p>
                     </div>
