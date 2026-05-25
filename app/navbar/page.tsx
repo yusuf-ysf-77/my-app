@@ -3,7 +3,7 @@ import Isi from "./isi";
 export default function Navbar() {
   return (
     <section className="w-screen h-screen bg-white flex items-center justify-center">
-        <div className="w-60 h-140 bg-[#3d2350] p-5.5 shadow-lg flex flex-col gap-4">
+        <div className="w-60 h-140 bg-[#3d2350] p-5.5 flex flex-col gap-4 shadow-[0px_0px_20px_0px_rgba(0,0,0,0.4)] ">
             <p className="text-white text-2xl font-bold mb-4 flex justify-center font-sans">CodingLab</p>
             <div className="flex flex-col gap-4">
                 <div className="flex flex-col">
